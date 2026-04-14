@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Togomo",
+    "slug": "togomo",
+    "scheme": "togomo",
+    "version": "1.0.0",
+    "owner": "togomo",
+    "description": "Food delivery aggregator platform connecting customers with restaurants",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#fff9f0"
+    },
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.togomo.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.togomo.app"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
