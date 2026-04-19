@@ -1,0 +1,11 @@
+*/node_modules
+*.log
+dist
+coverage
+
+# Ignore environment variable files
+node_modules/
+.vscode/
+.venv
+.expo
+
